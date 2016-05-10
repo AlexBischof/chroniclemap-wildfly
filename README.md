@@ -3,7 +3,7 @@ an external process and afterwards reused within JavaEE.
 
 #### Usage
 
- - Create chroniclemap file *test.dat* via *MyMap.main* in the postalcodes module
+ - Optional: Create chroniclemap file *test.dat* via *MyMap.main* in the postalcodes module
  - mvn clean install
  - cd wildfly
  - mvn wildfly:run
