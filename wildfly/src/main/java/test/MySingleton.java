@@ -13,15 +13,12 @@ import java.io.IOException;
 @Startup
 public class MySingleton {
     @PostConstruct
-    public void init() {
-        File file = new File(System.getProperty("jboss.home.dir") + "/../../../../test.dat");
+    public void init()  {
+        File file = new File(System.getProperty("jboss.home.dir") + "/../../../../postalcodes/test.dat");
         System.out.println(file.exists());
-
         try (MyMap myMap = new MyMap(file)) {
             System.out.println(myMap.get(1));
-        } catch (IOException e) {
-
-        } catch (Exception e) {
+        }catch (Exception e){
             e.printStackTrace();
         }
     }
