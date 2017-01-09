@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chroniclemap-wildfly.iml" filepath="$PROJECT_DIR$/chroniclemap-wildfly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/postalcodes/postalcode.iml" filepath="$PROJECT_DIR$/postalcodes/postalcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wildfly/wildfly.iml" filepath="$PROJECT_DIR$/wildfly/wildfly.iml" />
+    </modules>
+  </component>
+</project>
