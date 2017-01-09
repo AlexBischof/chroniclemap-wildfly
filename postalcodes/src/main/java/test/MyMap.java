@@ -19,7 +19,7 @@ public class MyMap implements AutoCloseable {
 
     public MyMap(File file) throws IOException {
 
-        System.setProperty("chronicle.values.dumpCode", "true");
+        //System.setProperty("chronicle.values.dumpCode", "true");
 
         map = ChronicleMapBuilder.of(LongValue.class, PostalCodeRange.class).entries(50).createPersistedTo(file);
 
